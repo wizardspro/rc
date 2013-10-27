@@ -48,7 +48,7 @@
 		</div><!-- /header -->
 
 		<div data-role="content">
-			this is the content of page 2
+			
 		</div><!-- /content -->
 
 		<div data-role="footer" data-position="fixed" data-fullscreen="true">
