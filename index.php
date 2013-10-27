@@ -48,7 +48,7 @@
 		</div><!-- /header -->
 
 		<div data-role="content">
-			<div><img src="images/opendatahack.png" style="width:100%"></div>
+			
 		</div><!-- /content -->
 
 		<div data-role="footer" data-position="fixed" data-fullscreen="true">
