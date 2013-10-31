@@ -32,7 +32,7 @@
 		</div><!-- /header -->
 
 		<div data-role="content">
-			
+			Google Charts
 			<div id="chart_div"></div>
 		</div><!-- /content -->
 
