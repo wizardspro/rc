@@ -14,7 +14,7 @@
 </head>
 <body>
 
-	<!-- Start of first page -->
+	<!-- Start of calculator page -->
 	<div data-role="page" id="calculator">
 
 		<div data-role="header" data-fullscreen="true">
@@ -38,9 +38,9 @@
 			</div>
 		</div><!-- /content -->
 
-	</div><!-- /page1 -->
+	</div><!-- /calculator -->
 
-	<!-- Start of second page -->
+	<!-- Start of variety selector page -->
 	<div data-role="page" id="variety">
 
 		<div data-role="header">
@@ -58,7 +58,7 @@
 				</ul>
 			</div><!-- /navbar -->
 		</div><!-- /footer -->
-	</div><!-- /page -->
+	</div><!-- /variety selector -->
 
 
 	<!-- Start of drying weight loss page -->
@@ -94,21 +94,175 @@
 
 		<div data-role="content">
 			<div data-role="controlgroup">
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Milling Recovery</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Head Rice Recovery</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Milling Degree</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Dockage (mr)</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Chalk Grains</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Whiteness</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Grain Shape</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Grain Grader</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Brewer's Rice</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Broken Grains</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Red Grains</a>
+				<a href="#millingRecovery" data-role="button" data-icon="arrow-r" data-iconpos="right">Milling Recovery</a>
+				<a href="#headRiceRecovery" data-role="button" data-icon="arrow-r" data-iconpos="right">Head Rice Recovery</a>
+				<a href="#millingDegree" data-role="button" data-icon="arrow-r" data-iconpos="right">Milling Degree</a>
+				<a href="#dockage" data-role="button" data-icon="arrow-r" data-iconpos="right">Dockage (mr)</a>
+				<a href="#chalkGrains" data-role="button" data-icon="arrow-r" data-iconpos="right">Chalk Grains</a>
+				<a href="#whiteness" data-role="button" data-icon="arrow-r" data-iconpos="right">Whiteness</a>
+				<a href="#grainShape" data-role="button" data-icon="arrow-r" data-iconpos="right">Grain Shape</a>
+				<a href="#grainGrader" data-role="button" data-icon="arrow-r" data-iconpos="right">Grain Grader</a>
+				<a href="#brewersRice" data-role="button" data-icon="arrow-r" data-iconpos="right">Brewer's Rice</a>
+				<a href="#brokenGrains" data-role="button" data-icon="arrow-r" data-iconpos="right">Broken Grains</a>
+				<a href="#redGrains" data-role="button" data-icon="arrow-r" data-iconpos="right">Red Grains</a>
 			</div>
 		</div><!-- /content -->
 
 	</div><!-- /mrq -->
+
+	<!-- Start of milling recovery page -->
+	<div data-role="page" id="millingRecovery">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Milling Recovery</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Milling recovery calculator
+		</div><!-- /content -->
+
+	</div><!-- /milling recovery -->
+
+	<!-- Start of head rice recovery page -->
+	<div data-role="page" id="headRiceRecovery">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Head Rice Recovery</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Head Rice recovery calculator
+		</div><!-- /content -->
+
+	</div><!-- /head rice recovery -->
+
+	<!-- Start of miling degree page -->
+	<div data-role="page" id="millingDegree">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Milling Degree</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Milling Degree calculator
+		</div><!-- /content -->
+
+	</div><!-- /milling degree -->
+
+	<!-- Start of dockage page -->
+	<div data-role="page" id="dockage">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Dockage</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Dockage calculator
+		</div><!-- /content -->
+
+	</div><!-- /dockage -->
+
+	<!-- Start of chalk Grains page -->
+	<div data-role="page" id="chalkGrains">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Chalk Grains</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Chalk Grains calculator
+		</div><!-- /content -->
+
+	</div><!-- /chalk Grains -->
+
+	<!-- Start of whiteness page -->
+	<div data-role="page" id="whiteness">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Whiteness</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Whiteness calculator
+		</div><!-- /content -->
+
+	</div><!-- /whiteness -->
+
+	<!-- Start of grain shape page -->
+	<div data-role="page" id="grainShape">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Grain Shape</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Grain Shape calculator
+		</div><!-- /content -->
+
+	</div><!-- /grain shape -->
+
+	<!-- Start of grain Grader page -->
+	<div data-role="page" id="grainGrader">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Grain Grader</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Grain Grader calculator
+		</div><!-- /content -->
+
+	</div><!-- /grain Grader -->
+
+	<!-- Start of brewer's Rice page -->
+	<div data-role="page" id="brewersRice">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Brewer's Rice</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Brewer's Rice calculator
+		</div><!-- /content -->
+
+	</div><!-- /brewer's Rice -->
+
+	<!-- Start of broken Grains page -->
+	<div data-role="page" id="brokenGrains">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Broken Grains</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Broken Grains calculator
+		</div><!-- /content -->
+
+	</div><!-- /brokens Grain -->
+
+	<!-- Start of red Grains page -->
+	<div data-role="page" id="redGrains">
+
+		<div data-role="header" style="overflow:hidden;">
+		    <h1>Red Grains</h1>
+		    <a href="#mrq" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="c" data-inline="true" class="ui-btn-left"></a>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			Red Grains calculator
+		</div><!-- /content -->
+
+	</div><!-- /red Grain -->
 
 	<!-- Start of quality of paddy grain page -->
 	<div data-role="page" id="pgq">
@@ -121,7 +275,7 @@
 		<div data-role="content">
 			<div data-role="controlgroup">
 				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Cracked Grains</a>
-				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Grin Dimension L/W</a>
+				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Grain Dimension L/W</a>
 				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Immature Grains</a>
 				<a href="" data-role="button" data-icon="arrow-r" data-iconpos="right">Dockage</a>
 			</div>
