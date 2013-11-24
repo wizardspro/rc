@@ -14,7 +14,7 @@
 </head>
 <body>
 
-	<!-- Start of calculator page -->
+	<!-- Start of calculator main page -->
 	<div data-role="page" id="calculator">
 
 		<div data-role="header" data-fullscreen="true">
